@@ -1,10 +1,48 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+table {
+  border: 2px solid black;
+  width: 100%;
+
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+.bulb {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+
+}
+
+.on {
+  background-color: yellow;
+}
+
+.off {
+  background-color: black;
+}
+
+#menu ul,
+#menu li {
+  margin: 0;
+  text-align: left;
+}
+
+h1 {
+
+  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +70,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
